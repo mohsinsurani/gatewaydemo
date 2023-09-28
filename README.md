@@ -1,40 +1,41 @@
+
 # gatewaydemo
 
-**Installation packages of python i.e. Backend
-**
-python3.9 -m venv env
+**Installation packages of Python i.e. Backend**
 
-source env/bin/activate
+	python3.9 -m venv env
 
-pip install --upgrade pip
+	source env/bin/activate
 
-pip install -r requirements.txt
+	pip install --upgrade pip
 
-python manage.py migrate
+	pip install -r requirements.txt
 
-python manage.py makemigrations
+	python manage.py migrate
 
-python manage.py runserver
+	python manage.py makemigrations
 
-Running test:
+	python manage.py runserver
 
-  cd gatewayapp
+**Running test:**
+
+	  cd gatewayapp
   
-  pytest tests.py
+	  pytest tests.py
 
 Server: http://127.0.0.1:8000/
 
-**Installation packages of React JS i.e. FrontEnd
-**
-open another terminal:
+**Installation packages of React JS i.e. FrontEnd**
 
-cd frontend
+	open another terminal:
 
-install node.js from https://nodejs.org/en/download
+	cd frontend
 
-npm install
+	install node.js from https://nodejs.org/en/download
 
-npm run build
+	npm install
+
+	npm run build
 
 front end code server should run in http://127.0.0.1:3000/
  
